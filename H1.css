@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    padding: 30px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #2c7be5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* 🔒 Disabled button style */
+  button:disabled {
+    background: #a0aec0;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    background: #1a68d1;
+  }
+  
+  #status {
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  th {
+    background: #2c7be5;
+    color: white;
+  }
+  
+  /* Table UI improvements */
+  tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  tr:hover {
+    background: #eef3ff;
+  }
+  
+  /* Status colors */
+  .loading {
+    color: orange;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .delivered {
+    color: green;
+    font-weight: bold;
+  }
+  button.disabled {
+    background: #a0aec0;
+    cursor: not-allowed;
+    pointer-events: auto; /* ✅ allow click */
+  }
+  #stopBtn {
+    background: red;
+    color: white;
+  }
+  
+  #stopBtn:hover {
+    background: darkred;
+  }
