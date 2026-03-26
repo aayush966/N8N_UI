@@ -95,7 +95,7 @@ stopBtn.addEventListener("click", async () => {
 
     statusText.textContent = "⛔ Workflow stopped";
     runBtn.disabled = false;
-    stopBtn.disabled = true;
+    stopBtn.disabled = false;
 
   } catch (error) {
     console.error(error);
