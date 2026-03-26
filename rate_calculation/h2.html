@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shipping Workflow Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="h2.css" />
+</head>
+<body>
+
+  <h1>Shipping Rate Comparison</h1>
+
+  <div class="actions">
+    <button id="openSheet">📄 Open Input Sheet</button>
+    <button id="run">🚀 Run Workflow</button>
+    <button id="stop" >⛔ Stop</button>
+    <button id="download" disabled>⬇️ Download CSV</button>
+  </div>
+
+  <div id="status">Idle</div>
+
+  <table id="resultTable">
+    <thead>
+      <tr>
+        <th>Zipcode</th>
+        <th>Weight</th>
+        <th>Nearest_Hub</th>
+        <th>Rate_Zone</th>
+        <th>Effective_Weight</th>
+        <th>Best_Company</th>
+        <th>Cheapest_Price</th>
+        <th>PA_zone</th>
+        <th>Cheapest_PA</th>
+        <th>TX_zone</th>
+        <th>Cheapest_TX</th>
+        <th>CA_zone</th>
+        <th>Cheapest_CA</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="h2.js"></script>
+</body>
+</html>

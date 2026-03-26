@@ -1,0 +1,67 @@
+body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #6a7988;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    .actions {
+      margin-bottom: 15px;
+    }
+
+    button {
+      padding: 10px 14px;
+      margin-right: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    #openSheet {
+      background: #2563eb;
+      color: rgb(17, 17, 17);
+    }
+
+    #run {
+      background: #16a34a;
+      color: rgb(17, 17, 17);
+    }
+
+    #download {
+      background: #b91d25;
+      color: rgb(22, 22, 22);
+    }
+
+    #download:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    #status {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #131414;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background:#6a7988;
+      margin-top: 20px;
+      font-size: 13px;
+    }
+
+    th, td {
+      border: 1px solid #e5e7eb;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background: #f1f5f9;
+    }
