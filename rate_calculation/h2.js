@@ -83,7 +83,7 @@ stopBtn.addEventListener("click", async () => {
 
   try {
     const res = await fetch(`${API_BASE}/executions/${executionId}`, {
-      method: "DELETE",
+      method: "POST",
       headers: {
         "X-N8N-API-KEY": API_KEY
       }
